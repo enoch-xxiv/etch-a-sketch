@@ -1,6 +1,7 @@
 const container = document.querySelector("#container");
 
-for (i = 0; i < 17; i++) {
-    let div = document.createElement("div");
+for (i = 0; i <  256; i++) {
+    const div = document.createElement("div");
+    div.classList.toggle("square")
     container.appendChild(div);
 }
