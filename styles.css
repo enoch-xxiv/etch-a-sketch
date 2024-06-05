@@ -17,11 +17,12 @@ body {
     flex-wrap: wrap;
     padding: 8px;
     gap: 8px;
-    max-width: 264px;
+    width: 392px;
+    height: 392px;
     background-color: #738960;
     }
 
 .square {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
 }
