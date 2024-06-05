@@ -5,30 +5,23 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     height: 100vh;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
-    max-width: 648px;
-    min-width: 648px;
     padding: 8px;
     gap: 8px;
-    background-color: black;
-    border-radius: 16px;
-}
+    max-width: 264px;
+    background-color: #738960;
+    }
 
 .square {
-    width: 32px;
-    height: 32px;
-    background-color: white;
-    border-radius: 8px;
-}
-
-.square:hover {
-    background-color: lightgray;
+    width: 8px;
+    height: 8px;
 }
